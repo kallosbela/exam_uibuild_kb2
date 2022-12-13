@@ -1,0 +1,40 @@
+:root {
+  --white: #ffeedf;
+  --green: #145434;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  
+}
+
+body {
+  width: 100vw;
+  /* font-family: 'Times New Roman', Times, serif ; */
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  /* background-color: var(--white); */
+}
+
+/* main {
+
+}
+
+.container {
+
+}
+
+section {
+
+}
+
+footer {
+
+}
+
+ */
