@@ -46,19 +46,3 @@ const movies = {
 	]
 }
 console.log(movies);
-
-//in main container
-const container = document.getElementById('container')
-for (let i=0; i<movies.cards.length; i++) {
-  container.innerHTML += `
-  <section class="card">
-    <div class="number">${i+1}</div>
-    <div class="textcontainer">
-      <div class="title">${movies.cards[i].title}</div>
-      <div class="sub">${movies.cards[i].sub}</div>
-      <div class="text">${movies.cards[i].text}</div>
-    </div>
-  <button>Watch </button>
-</section>
-  `
-}
